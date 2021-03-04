@@ -1,5 +1,6 @@
 package ru.naiman.lesson1;
-
+// int - Целлочисленный тип данных, целые числа 1 2  3 4 9 20 100
+// double - Типы с плавающей точкой — float и double. Они служат для представления чисел, имеющих дробную часть. 1.11 50.13 7.01
 public class HomeWork1 {
     public static void main(String[] args) {
        System.out.print(methodComp(2,3,4,5));
@@ -18,7 +19,7 @@ public class HomeWork1 {
     }
 
     // Вычисляем выражение
-    public static double methodComp(int a, int b, int c, int d) {
+    public static double methodComp(double a, double b, double c, double d) {
         return  a * (b + (c / d));
     }
 
